@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Help for the Solpath iPhone app: how the sun’s path is worked out, the compass, the camera, places and time zones.">
+  <title>Solpath support</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sheet">
+  <header class="masthead">
+    <a class="title" href="index.html">Solpath</a>
+    <nav aria-label="Pages">
+      <ul>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="support.html" aria-current="page">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="head">
+      <h1>Support</h1>
+      <p class="lead">Questions about Solpath, answered. For anything else, <a href="#contact">write to us</a>.</p>
+    </div>
+    <div class="entries">
+      <section class="warning" id="eyes">
+        <h2>Never look directly at the sun</h2>
+        <p class="text">Looking at the sun can damage your eyes. Look only at your phone’s screen, also while you line up the sun in the camera, and point the camera at the sun no longer than you need to.</p>
+      </section>
+    </div>
+    <ul class="contents">
+      <li><a href="#path">How is the sun’s path worked out?</a></li>
+      <li><a href="#compass">Why can the compass be off?</a></li>
+      <li><a href="#align">What does “Align to sun” do?</a></li>
+      <li><a href="#reset">Why does the adjustment reset?</a></li>
+      <li><a href="#camera">Why is nothing drawn in the camera?</a></li>
+      <li><a href="#places">How do places and time zones work?</a></li>
+      <li><a href="#polar">What happens near the poles?</a></li>
+      <li><a href="#offline">Does it work without internet?</a></li>
+      <li><a href="#backup">Are my saved places backed up?</a></li>
+      <li><a href="#contact">How do I contact you?</a></li>
+    </ul>
+    <div class="entries">
+      <section id="path">
+        <h2>How is the sun’s path worked out?</h2>
+        <div class="text">
+          <p>From your place, the date and the time, with published astronomical formulas: the method of Jean Meeus’s <em>Astronomical Algorithms</em>, which NOAA’s solar calculator also follows. The whole calculation runs on your iPhone.</p>
+          <p>Sunrise and sunset are for a level horizon in ordinary air. Hills, buildings, trees and the weather are not taken into account, so the sun you see can appear later or disappear earlier.</p>
+          <p>Golden hour has no single definition. Solpath counts from the sun a little above the horizon to a little below it, in the morning and in the evening.</p>
+        </div>
+      </section>
+      <section id="compass">
+        <h2>Why can the compass be off?</h2>
+        <div class="text">
+          <p>The compass feels the Earth’s magnetic field, and anything magnetic nearby disturbs it: metal, cars, reinforced concrete, speakers, magnetic cases and chargers.</p>
+          <p>Step away from such things and move your phone in a figure eight a few times. “weak compass” or “Move your phone in a figure eight” means that the phone itself is unsure about the direction.</p>
+          <p>“magnetic” means that iOS could not give the direction of true north, so the direction shown is from magnetic north.</p>
+        </div>
+      </section>
+      <section id="align">
+        <h2>What does “Align to sun” do?</h2>
+        <div class="text">
+          <p>It uses the real sun to correct the direction of the drawing in the Camera tab. Tap “Align to sun”, bring the real sun into the ring while you look at the screen, and tap “Align”. The sun’s path, the hours and the horizon then move together.</p>
+          <p>It works only while the sun is above the horizon. If the difference is very large, it is not applied; move your phone in a figure eight and try again. “Reset” takes the adjustment away.</p>
+        </div>
+      </section>
+      <section id="reset">
+        <h2>Why does the adjustment reset?</h2>
+        <p class="text">How far the compass is off changes from spot to spot and with what is around you. An old adjustment could make the next drawing worse, so it is kept only while you stay in the Camera tab. Leaving the tab or the app clears it, and it is not saved.</p>
+      </section>
+      <section id="camera">
+        <h2>Why is nothing drawn in the camera?</h2>
+        <div class="text">
+          <p>The drawing appears while you hold your phone upright. When it is tilted too far, “Hold upright” appears instead.</p>
+          <p>The Camera tab always shows the sun where you are, also when another place is selected, so it needs your location as well as the camera. The drawing is a guide and can be off, more so towards the edges of the picture.</p>
+        </div>
+      </section>
+      <section id="places">
+        <h2>How do places and time zones work?</h2>
+        <div class="text">
+          <p>In Places, choose your current location, or tap “Add a place” to pick a city from the list or to save the spot you are at under a name.</p>
+          <p>Times and dates are those of the selected place. A city has its own time zone; a saved location keeps the time zone your iPhone had when you saved it. Choosing another place keeps the date and the clock time, at that place.</p>
+          <p>The list holds cities and towns with more than 5,000 people. If yours is missing, choose a larger one nearby, or save the spot when you are there.</p>
+          <p>The Camera tab uses your iPhone’s own time zone.</p>
+        </div>
+      </section>
+      <section id="polar">
+        <h2>What happens near the poles?</h2>
+        <p class="text">In some seasons the sun stays up or stays down all day. Solpath then shows “Up all day” or “Down all day” instead of sunrise and sunset, and the Day tab says what is missing. Twilight and golden hour are still shown when they happen.</p>
+      </section>
+      <section id="offline">
+        <h2>Does it work without internet?</h2>
+        <p class="text">Yes. The calculation and the city list are inside the app, and it makes no network requests. Without signal, your iPhone may need longer to find your location. Only “Privacy” and “Support” in Settings need a connection, because they open this website in your browser.</p>
+      </section>
+      <section id="backup">
+        <h2>Are my saved places backed up?</h2>
+        <p class="text">They are part of the app’s data, so they can be included in your iCloud Backup or a backup you make on a computer, and come back when you restore from it. Solpath has no export of its own. Deleting the app deletes the places from your iPhone.</p>
+      </section>
+      <section id="contact">
+        <h2>How do I contact you?</h2>
+        <div class="text">
+          <p>Email <a href="mailto:appfab.apps@outlook.com">appfab.apps@outlook.com</a>.</p>
+          <p>You can also report a problem on <a href="https://github.com/appfab-apps/solpath/issues">GitHub Issues</a>. It needs a free GitHub account, and what you write there is public.</p>
+          <p>Please do not send personal details or your location. See the <a href="privacy.html">privacy policy</a>.</p>
+        </div>
+      </section>
+      <section>
+        <h2>City list</h2>
+        <p class="text">© GeoNames (<a href="https://www.geonames.org/">geonames.org</a>), licensed under CC BY 4.0 (<a href="https://creativecommons.org/licenses/by/4.0/">creativecommons.org/licenses/by/4.0</a>). Shortened and rearranged for Solpath; provided as is, without warranty.</p>
+      </section>
+    </div>
+  </main>
+  <footer class="foot">
+    <span>Solpath, an AppFab app</span>
+    <div><a href="index.html">Home</a><a href="privacy.html">Privacy policy</a></div>
+  </footer>
+</div>
+</body>
+</html>
